@@ -1,0 +1,58 @@
+.grid-stack {
+    background: rgb(255, 255, 255);
+    box-shadow: 0 2px 2px rgb(204 197 185 / 50%);
+}
+
+.grid-stack-item {
+    margin-right: 10px;
+}
+
+.grid-stack-item-content {
+    color: #ffffff;
+    background-color: #100c2a;
+
+}
+.grid-stack>.grid-stack-item>.grid-stack-item-content {
+    margin: 0;
+    position: absolute;
+    width: auto;
+    overflow-x: hidden;
+    overflow-y: hidden !important;
+}
+
+.configbtn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -25px 0 0 -25px;
+}
+
+.btn-outline-dark {
+    color: #ffffff !important;
+    /* background-color: transparent; */
+    /* background-image: none; */
+    border-color: #ffffff !important;
+}
+
+
+/* ===================datatable CSS============================ */
+.table .table-dark .table-sm .display{
+    background-color: #100c2a!important;
+    color: #ffffff;
+    border: 1px solid white !important;
+}
+
+.dataTables_wrapper {
+    background-color: #100c2a;
+}
+
+.dataTables_wrapper .dataTables_length, .dataTables_wrapper .dataTables_filter, .dataTables_wrapper .dataTables_info, .dataTables_wrapper .dataTables_processing, .dataTables_wrapper .dataTables_paginate{
+    color: #fff !important;
+}
+.dataTables_wrapper .dataTables_length select {
+  
+    color:#28a745;
+}
+.dataTables_wrapper .dataTables_filter input {
+    background-color: white !important;
+}
